@@ -4,7 +4,7 @@ import axios from 'axios';
 import fs from 'fs';
 import * as path from 'path';
 
-const OPENAI_API_KEY="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"
+const OPENAI_API_KEY=""
 const openai = new OpenAI({ apiKey: OPENAI_API_KEY });
 
 async function downloadImage(url: string, filename: string): Promise<void> {
