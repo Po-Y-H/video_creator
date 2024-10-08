@@ -4,11 +4,11 @@ import fs from 'fs';
 import * as path from 'path';
 
 const client = new Client({
-    host: 'localhost',
-    database: 'pishposhbaby',
-    user: 'mamon',
-    password: 'mamon11',
-    port: 5432,
+    host: '',
+    database: '',
+    user: '',
+    password: '',
+    port: ,
 });
   
 async function queryRecords(keywords: string[]): Promise<any[]> {
